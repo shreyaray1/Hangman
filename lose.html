@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="result.css">
+		<script src="hangman.js"></script>
+		<title>Hangman</title>
+	</head>
+	<body id = "lose-page">
+		<h1 id = "lose">YOU LOSE!!</h1>
+		<p>
+			The word was:
+		</p>
+		<div id="correct-word"></div>
+		
+		<script type="text/javascript">
+			findWord();
+		</script>
+		
+		<br><br><br><br>
+		
+		<button onclick = "goToNextPage('Hangman.html')">New Game</button>
+		<button onclick = "goToNextPage('stats.html')">Stats</button>
+		
+	</body>
+</html>

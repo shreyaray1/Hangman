@@ -1,0 +1,47 @@
+#win {
+	font-family: sans-serif;
+	font-size: 100px;
+	text-align: center;
+}
+
+#lose {
+	font-family: sans-serif;
+	font-size: 100px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#lose-page{
+	background: #E9847F;
+	text-align: center;
+	color: red;
+}
+
+#win-page{
+	background: #90EE90;
+	text-align: center;
+	color: green;
+}
+
+p {
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div {
+	font-size: 50px;
+	background-color: black;
+	padding: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 0px;
+	width: 50%;
+	text-align: center;
+}
+
+button {
+	font-size: 30px;
+	
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="words.css">
+		<script src="hangman.js"></script>
+		<title>Hangman</title>
+	</head>
+	<body>
+		<h1>The Hangman Game!</h1>
+		<p id = "instructions">
+			Welcome to the hangman game! In this game, you need to guess the
+			letters of a randomly generated six-letter word. To guess a letter, you can
+			type individual letters into your keyboard after generating a word. If you
+			guess 6 incorrect letters, you lose! For each incorrect letter, you are one 
+			step closer to being hanged. If you manage to guess the word before 
+			then, you win. Have fun!
+		</p>
+		<button id = "play" onclick = "goToNextPage('Hangman.html')">
+			Play
+		</button>
+	</body>
+</html>

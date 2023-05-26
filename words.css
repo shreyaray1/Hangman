@@ -1,0 +1,233 @@
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-family: sans-serif;
+		font-size: 100px;
+		color: rgb(135,105,156);
+		text-align: center;
+	}
+
+	#instructions {
+		background: #90EE90;
+		color: #008000;
+		font-size: 40px;
+		padding: 20px;
+		margin: 5% 10% 5% 10%;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 45px;
+		margin-left: 300px;
+	}
+
+	#wrong {
+		font-size: 30px;
+		float: left;
+		margin-left: 650px;
+	}
+
+	#words {
+		background-color: rgb(165,207,159);
+		font-size: 40px;
+		position: absolute;
+	}
+
+	#play {
+		font-size: 25px;
+	}
+
+	body{
+		background: #B0E2F2;
+		text-align: center;
+	}
+
+	#result {
+		font-size: 70px;
+		margin: 250px 40px 0px 600px;
+		font-weight: bold;
+	}
+
+	#letters {
+		background-color: rgb(255, 192, 203);
+		font-size: 25px;
+		position: absolute;
+	}
+
+	#hanger {
+		top: 150px;
+		height: 550px;
+		left: 50px;
+		z-index: 1;
+		position: absolute;
+	}
+
+	#circle {
+		width: 160px;
+		top: 213px;
+		left: 213px;
+		z-index: 2;
+		position: absolute;
+	}
+
+	#torso {
+		width: 38px;
+		height: 170px;
+		top: 311px;
+		left: 273px;
+		z-index: 3;
+		position: absolute;
+	}
+
+	#arm {
+		width: 86px;
+		height: 60px;
+		top: 325px;
+		left: 210px;
+		z-index: 4;
+		position: absolute;
+	}
+	#arm2 {
+		width: 86px;
+		height: 60px;
+		top: 325px;
+		left: 287px;
+		z-index: 4;
+		position: absolute;
+	}
+
+	#leg {
+		width: 87px;
+		height: 100px;
+		top: 475px;
+		left: 285px;
+		z-index: 5;
+		position: absolute;
+	}
+
+	#leg2 {
+		width: 135px;
+		height: 136px;
+		top: 475px;
+		left: 176px;
+		z-index: 5;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-family: sans-serif;
+		font-size: 60px;
+		color: rgb(135,105,156);
+		text-align: center;
+	}
+
+	#instructions {
+		background: #90EE90;
+		color: #008000;
+		font-size: 25px;
+		padding: 15px;
+		margin: 5% 20% 5% 20%;
+		text-align: center;
+	}
+	
+	body{
+		background: #B0E2F2;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 30px;
+		margin-left: 250px;
+	}
+
+	#wrong {
+		font-size: 20px;
+		float: left;
+		margin-left: 350px;
+	}
+
+	#words {
+		background-color: rgb(165,207,159);
+		font-size: 40px;
+		position: absolute;
+		right: 40px;
+	}
+
+	#play {
+		font-size: 25px;
+	}
+
+	#result {
+		font-size: 35px;
+		margin: 250px 40px 0px 350px;
+		font-weight: bold;
+	}
+
+	#letters {
+		background-color: rgb(255, 192, 203);
+		font-size: 25px;
+		position: absolute;
+		text-align: 850px;
+	}
+	
+	#hanger {
+		top: 150px;
+		left: 50px;
+		z-index: 1;
+		position: absolute;
+		width: 300px;
+	}
+
+	#circle {
+		width: 150px;
+		top: 220px;
+		left: 216px;
+		z-index: 2;
+		position: absolute;
+	}
+
+	#torso {
+		width: 30px;
+		height: 180px;
+		top: 312px;
+		left: 276px;
+		z-index: 3;
+		position: absolute;
+	}
+
+	#arm {
+		width: 80px;
+		height: 50px;
+		top: 328px;
+		left: 288px;
+		z-index: 4;
+		position: absolute;
+	}
+	#arm2 {
+		width: 80px;
+		height: 50px;
+		top: 328px;
+		left: 210px;
+		z-index: 4;
+		position: absolute;
+	}
+
+	#leg {
+		width: 78px;
+		height: 90px;
+		top: 487px;
+		left: 284px;
+		z-index: 5;
+		position: absolute;
+	}
+
+	#leg2 {
+		width: 89px;
+		height: 99px;
+		top: 487px;
+		left: 214px;
+		z-index: 5;
+		position: absolute;
+	}
+}
